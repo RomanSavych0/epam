@@ -15,12 +15,12 @@
 <a href="passengers.jsp">passenger list</a>
 
     Add passenger:
-    <form action="createPassenger?" method="post">
+    <form action="addPassenger?" method="post">
             <input type="text" name ="firstName" placeholder="Input First name">
             <input type="text" name ="surname" placeholder="Input First name">
             <input type="checkbox" name="privilege" placeholder="privilege?">
             <input type="submit" placeholder="submit">
-            <input type = "hidden" name ="command" value="createPassenger">
+            <input type = "hidden" name ="command" value="addPassenger">
 
     </form>
 

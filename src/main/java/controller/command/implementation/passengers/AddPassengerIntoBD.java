@@ -29,14 +29,9 @@ public class AddPassengerIntoBD implements Command {
         }
         try {
             dao.writeIntoBD(passenger);
-        } catch (SQLException e) {
-            e.printStackTrace();
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (InstantiationException e) {
+        } catch (SQLException | IllegalAccessException | InstantiationException e) {
             e.printStackTrace();
         }
-
 
         return null;
     }

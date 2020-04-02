@@ -7,66 +7,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d52e1c13-e16e-4079-bc2c-247f829e0dad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/EpamProject_Web_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/8bba3d05-c8f5-40e7-b2cf-a8c0d7f1f1dd.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/d015a342-7d52-4203-be05-c07382f124e6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/df9923c2-a758-491f-b455-3b82bc381ac5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EpamProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/Connect.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/META-INF/EpamProject.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/controller/command/implementation/passengers/AddPassengerIntoBD.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/controller/command/implementation/passengers/DeletePassenger.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/controller/command/implementation/passengers/FindPassenger.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/controller/command/implementation/passengers/GetAllPassengers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/controller/command/interfaces/Command.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/controller/dao/PassengerDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/controller/service/PassengerService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/model/Passenger.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/model/Ticket.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/model/Train.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/servlets/MainServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/lib/javax.servlet-api-3.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/passengers.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Connect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/AddPassengerIntoBD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/DeletePassenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/FindPassenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/GetAllPassengers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/command/interfaces/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/dao/PassengerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/service/PassengerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Passenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/Train.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/MainServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/Connect.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/EpamProject.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/controller/command/implementation/passengers/AddPassengerIntoBD.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/controller/command/implementation/passengers/DeletePassenger.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/controller/command/implementation/passengers/FindPassenger.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/controller/command/implementation/passengers/GetAllPassengers.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/controller/command/interfaces/Command.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/controller/dao/PassengerDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/controller/service/PassengerService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/Passenger.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/Ticket.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/model/Train.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/servlets/MainServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/passengers.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/CommandContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/enums/CommandConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/enums/PagesConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/Connect.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/Connect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/controller/command/implementation/passengers/AddPassengerIntoBD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/controller/command/implementation/passengers/AddPassengerIntoBD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/controller/command/implementation/passengers/DeletePassenger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/controller/command/implementation/passengers/DeletePassenger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/controller/command/implementation/passengers/FindPassenger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/controller/command/implementation/passengers/FindPassenger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/controller/command/implementation/passengers/GetAllPassengers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/controller/command/implementation/passengers/GetAllPassengers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/controller/command/interfaces/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/controller/command/interfaces/Command.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/controller/dao/PassengerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/controller/dao/PassengerDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/controller/service/PassengerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/controller/service/PassengerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/model/Passenger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/model/Passenger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/model/Ticket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/model/Ticket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/model/Train.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/model/Train.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/servlets/MainServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/servlets/MainServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/passengers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/passengers.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/AddPassengerIntoBD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/AddPassengerIntoBD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/DeletePassenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/DeletePassenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/FindPassenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/FindPassenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/GetAllPassengers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/GetAllPassengers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servlets/MainServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/MainServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Connect.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Connect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/command/implementation/passengers/AddPassengerIntoBD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/command/implementation/passengers/AddPassengerIntoBD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/command/implementation/passengers/DeletePassenger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/command/implementation/passengers/DeletePassenger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/command/implementation/passengers/FindPassenger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/command/implementation/passengers/FindPassenger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/command/implementation/passengers/GetAllPassengers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/command/implementation/passengers/GetAllPassengers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/command/interfaces/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/command/interfaces/Command.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/dao/PassengerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/dao/PassengerDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/service/PassengerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/service/PassengerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Passenger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Passenger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Ticket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Ticket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/Train.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Train.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/servlets/MainServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/servlets/MainServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/passengers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/passengers.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -96,10 +74,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Connect.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/CommandContainer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="23" column="91" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="91" />
+            <state relative-caret-position="550">
+              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,8 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/servlets/MainServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+            <state relative-caret-position="560">
+              <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,8 +100,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="500">
+              <caret line="20" column="75" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/DeletePassenger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -128,8 +121,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/GetAllPassengers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="425">
+              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -140,41 +133,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/FindPassenger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="250">
+              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/passengers.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/Passenger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-              <folding>
-                <element signature="e#195#196#0" expanded="true" />
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#658#659#0" expanded="true" />
-                <element signature="e#685#686#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="225">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -182,12 +154,21 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/AddPassengerIntoBD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+            <state relative-caret-position="185">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1585407692716" expanded="true" signature="429:1258" ph="..." />
+                <marker date="1585825066902" expanded="true" signature="429:1151" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/enums/PagesConstant.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -195,8 +176,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+            <state relative-caret-position="323">
+              <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -209,6 +190,7 @@
         <option value="Jsp File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -235,17 +217,23 @@
         <option value="$PROJECT_DIR$/src/main/java/controller/service/PassengerService.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/dao/PassengerDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/MainServlet.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/controller/command/interfaces/Command.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/command/implementation/AddPassengerIntoBD.java" />
         <option value="$PROJECT_DIR$/src/main/java/servlets/CreatePassengerServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/FindPassenger.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/AddPassengerIntoBD.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/servlets/MainServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/GetAllPassengers.java" />
         <option value="$PROJECT_DIR$/web/passengers.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/AddPassengerIntoBD.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/PagesConstant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/enums/commandConstant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/DeletePassenger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/FindPassenger.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/CommandContainer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/enums/CommandConstant.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/servlets/MainServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/enums/PagesConstant.java" />
       </list>
     </option>
   </component>
@@ -274,8 +262,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -345,7 +331,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EpamProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EpamProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EpamProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EpamProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="enums" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EpamProject" type="b2602c69:ProjectViewProjectNode" />
@@ -374,6 +378,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -522,12 +528,21 @@
       <workItem from="1585257951828" duration="3227000" />
       <workItem from="1585262063533" duration="368000" />
       <workItem from="1585263367120" duration="195000" />
-      <workItem from="1585298186255" duration="22231000" />
+      <workItem from="1585298186255" duration="28998000" />
+      <workItem from="1585822729117" duration="4096000" />
     </task>
+    <task id="LOCAL-00001" summary=".">
+      <created>1585419619762</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585419619762</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46387000" />
+    <option name="totallyTimeSpent" value="57250000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -540,6 +555,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Capture Tool" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -547,11 +563,11 @@
       <window_info id="Image Layers" order="3" />
       <window_info id="Web" order="4" sideWeight="0.30555555" side_tool="true" weight="0.15031983" />
       <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.6944444" visible="true" weight="0.2510661" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.6944444" visible="true" weight="0.17750533" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.36033228" />
       <window_info anchor="bottom" id="Application Servers" order="1" weight="0.32936507" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.32936507" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.50992066" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="5" weight="0.32738096" />
@@ -560,7 +576,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Message" order="9" />
       <window_info anchor="bottom" id="Find" order="10" weight="0.32936507" />
-      <window_info anchor="bottom" id="Run" order="11" weight="0.45734128" />
+      <window_info anchor="bottom" id="Run" order="11" weight="0.43353173" />
       <window_info anchor="bottom" id="Debug" order="12" weight="0.39980158" />
       <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
@@ -675,13 +691,7 @@
     <entry file="file://$PROJECT_DIR$/web/createCar.jsp" />
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/createPassenger.jsp" />
     <entry file="file://$PROJECT_DIR$/web/createPassenger.jsp" />
-    <entry file="das://d015a342-7d52-4203-be05-c07382f124e6/database/TRAINSSTANTION/schema/PUBLIC/table/PASSENGERS/index/PRIMARY_KEY_4">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://d015a342-7d52-4203-be05-c07382f124e6/database/TRAINSSTANTION/schema/PUBLIC/table/PASSENGERS/index/PRIMARY_KEY_4" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17300">
@@ -720,27 +730,11 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/814c8723-1925-4e0e-bacf-e3e78c0ba4a3/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="das://d015a342-7d52-4203-be05-c07382f124e6/database/TRAINSSTANTION/schema/PUBLIC/table/PASSENGERS">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="3d2924bb-ccce-4293-ba5d-b8e231fba963">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://d015a342-7d52-4203-be05-c07382f124e6/database/TRAINSSTANTION/schema/PUBLIC/table/PASSENGERS" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/431d0d38-3e3f-4a5f-8b1e-6ecfce1e38be/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="das://8bba3d05-c8f5-40e7-b2cf-a8c0d7f1f1dd/database/TRAINSTANTION/schema/PUBLIC/table/PASSENGERS">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="3d2924bb-ccce-4293-ba5d-b8e231fba963">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://8bba3d05-c8f5-40e7-b2cf-a8c0d7f1f1dd/database/TRAINSTANTION/schema/PUBLIC/table/PASSENGERS" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8bba3d05-c8f5-40e7-b2cf-a8c0d7f1f1dd/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -748,15 +742,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://df9923c2-a758-491f-b455-3b82bc381ac5/database/DEFAULT/schema/PUBLIC/table/PASSENGERS">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state projectRestartId="3d2924bb-ccce-4293-ba5d-b8e231fba963">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://df9923c2-a758-491f-b455-3b82bc381ac5/database/DEFAULT/schema/PUBLIC/table/PASSENGERS" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/df9923c2-a758-491f-b455-3b82bc381ac5/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -767,13 +753,6 @@
     <entry file="file://$PROJECT_DIR$/EpamProject.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/sql/ResultSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-573">
-          <caret line="147" column="17" selection-start-line="147" selection-start-column="17" selection-end-line="147" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/service/PassengerService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
@@ -781,61 +760,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/dao/PassengerDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/MainServlet.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Connect.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/interfaces/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MainServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="3" selection-start-column="2" selection-end-line="17" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#651#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/DeletePassenger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/FindPassenger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/AddPassengerIntoBD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1585407692716" expanded="true" signature="429:1258" ph="..." />
-          </folding>
+        <state relative-caret-position="575">
+          <caret line="23" column="91" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="91" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Passenger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
+        <state relative-caret-position="550">
           <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
           <folding>
             <element signature="e#195#196#0" expanded="true" />
@@ -846,38 +781,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/dao/PassengerDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+        <state relative-caret-position="671">
+          <caret line="44" column="78" selection-start-line="44" selection-start-column="78" selection-end-line="44" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/sql/ResultSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="-75">
+          <caret line="587" column="8" selection-start-line="587" selection-start-column="8" selection-end-line="587" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/interfaces/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/enums/CommandConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/AddPassengerIntoBD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1585825066902" expanded="true" signature="429:1151" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/CommandContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        <state relative-caret-position="323">
+          <caret line="22" column="45" lean-forward="true" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Connect.java">
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" column="91" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="91" />
+        <state relative-caret-position="500">
+          <caret line="20" column="75" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/MainServlet.java">
+    <entry file="file://$PROJECT_DIR$/web/passengers.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+        <state relative-caret-position="225">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/DeletePassenger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/FindPassenger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -886,18 +883,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/GetAllPassengers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="425">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/passengers.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/MainServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        <state relative-caret-position="560">
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/enums/PagesConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
         </state>
       </provider>
     </entry>

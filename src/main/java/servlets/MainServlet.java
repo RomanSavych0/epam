@@ -1,9 +1,13 @@
 package servlets;
 
 import controller.command.implementation.passengers.AddPassengerIntoBD;
+import controller.command.implementation.passengers.CommandContainer;
 import controller.command.implementation.passengers.GetAllPassengers;
+import controller.command.interfaces.Command;
 import controller.dao.PassengerDao;
+import model.enums.CommandConstant;
 
+import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -15,20 +19,40 @@ import java.sql.SQLException;
 
 @WebServlet(name = "MainServlet")
 public class MainServlet extends HttpServlet {
-    private  PassengerDao dao;
+    private CommandContainer container;
+
+    @Override
+    public void init(ServletConfig config) throws ServletException {
+        super.init(config);
+        container = new CommandContainer();
+
+
+    }
+
+
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-         System.out.println(request.getParameter("command"));
-          new AddPassengerIntoBD().execute(request);
+         switch (request.getParameter("command")) {
+             case("addPassenger"):
+                 try {
+                     container.executeCommand(CommandConstant.addPassengerIntoBD , request);
+                 } catch (SQLException e) {
+                     e.printStackTrace();
+                 }
+                 break;
+
+         }
+
+
 
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         try {
-            new GetAllPassengers().execute(request);
-            request.getRequestDispatcher("/passengers.jsp").forward(request, response);
+           String page =  new GetAllPassengers().execute(request);
+            request.getRequestDispatcher(page).forward(request, response);
 
         } catch (SQLException e) {
             e.printStackTrace();

@@ -21,6 +21,6 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>createPassengerServlet</servlet-name>
-        <url-pattern>/createPassenger</url-pattern>
+        <url-pattern>/addPassenger</url-pattern>
     </servlet-mapping>
 </web-app>

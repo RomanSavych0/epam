@@ -7,11 +7,6 @@
 
 </head>
 <body>
-<%--<c:forEach var="list" items="${List}">--%>
-<%--    <c:out value="${list.getName}">--%>
-<%--    </c:out>--%>
 
-
-<%--</c:forEach>--%>
 </body>
 </html>

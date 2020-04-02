@@ -13,10 +13,9 @@ public class GetAllPassengers implements Command {
 
     public String execute(HttpServletRequest req) throws SQLException {
         dao = new PassengerDao();
-
         req.setAttribute("List", dao.getAllPassengersFromBD());
 
-    return "/passengers.jsp";
+        return "passengers.jsp";
 
     }
 
