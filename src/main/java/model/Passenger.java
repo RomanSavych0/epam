@@ -10,6 +10,9 @@ public class Passenger {
         return passengerCode;
     }
 
+    public Passenger() {
+    }
+
     @Override
     public String toString() {
         return "Passenger{" +

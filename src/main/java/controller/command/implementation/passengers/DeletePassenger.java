@@ -7,7 +7,7 @@ import java.sql.SQLException;
 
 public class DeletePassenger implements Command {
     @Override
-    public String execute(HttpServletRequest req) throws SQLException {
+    public String execute(HttpServletRequest req)  {
         return null;
     }
 }

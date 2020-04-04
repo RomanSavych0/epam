@@ -15,7 +15,7 @@
 <a href="passengers.jsp">passenger list</a>
 
     Add passenger:
-    <form action="addPassenger?" method="post">
+    <form action="mainServlet?" method="post">
             <input type="text" name ="firstName" placeholder="Input First name">
             <input type="text" name ="surname" placeholder="Input First name">
             <input type="checkbox" name="privilege" placeholder="privilege?">

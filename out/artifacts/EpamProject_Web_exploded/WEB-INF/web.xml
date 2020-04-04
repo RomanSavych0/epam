@@ -16,11 +16,11 @@
 
 
     <servlet>
-        <servlet-name>createPassengerServlet</servlet-name>
+        <servlet-name>mainServlet</servlet-name>
         <servlet-class>servlets.MainServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>createPassengerServlet</servlet-name>
-        <url-pattern>/createPassenger</url-pattern>
+        <servlet-name>mainServlet</servlet-name>
+        <url-pattern>/mainServlet</url-pattern>
     </servlet-mapping>
 </web-app>
