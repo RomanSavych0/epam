@@ -15,11 +15,12 @@ public class PassengerServiceImpl {
     public PassengerServiceImpl() throws SQLException {
     }
 
-    public Passenger createPassenger(String name, String surname, boolean privilege) {
-        Passenger passenger = new Passenger(name, surname, privilege);
+    public void insertPassenger(String name, String surname, Boolean privilege) {
+        PassengerDaoImpl passengerDao = new PassengerDaoImpl(connection);
+            Passenger passenger = new Passenger(name , surname , privilege);
 
+        passengerDao.save(passenger);
 
-        return passenger;
     }
 
 
@@ -42,12 +43,9 @@ public class PassengerServiceImpl {
     }
 
     public static void main(String[] args) throws SQLException {
- // Passenger passenger = new PassengerServiceImpl().findById(1).orElse(new Passenger());
 //
-   //    System.out.println(passenger.getName() +" " + passenger.getSurname() + "" + passenger.isPrivilege() +passenger.getPassengerCode());
-
-        List<Passenger>passengerList = new PassengerServiceImpl().getAllPassengers();
-
+    PassengerServiceImpl passengerService = new PassengerServiceImpl();
+    passengerService.insertPassenger("roma" ,  "sav" , true);
 
     }
 

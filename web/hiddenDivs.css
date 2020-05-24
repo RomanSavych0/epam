@@ -1,0 +1,54 @@
+
+.passenger-form {
+    display: none;
+    flex: 0 1 100%;
+}
+.ticket {
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 1px solid whitesmoke;
+    display: flex; !important;
+}
+.ticket-item{
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border: 1px solid whitesmoke;
+display: flex;
+    color: #ffff99; !important;
+}
+#show-ticket-from{
+
+}
+.ticket-list {
+    margin-top: 94px;
+    width: 100%;
+    background-color: #ffff99;
+    border: 1px solid darkred;
+    -webkit-box-shadow: 3px 13px 11px 3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 13px 11px 3px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 13px 11px 3px rgba(0, 0, 0, 0.75);
+    display: flex;
+    flex-grow: inherit;
+    flex-wrap: nowrap;
+    flex-direction:column;
+    justify-content: space-between
+}
+.ticket-items{
+    margin-top: 94px;
+    width: 100%;
+    background-color: #ffff99;
+    border: 1px solid darkred;
+    -webkit-box-shadow: 3px 13px 11px 3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 13px 11px 3px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 13px 11px 3px rgba(0, 0, 0, 0.75);
+    display: flex;
+    flex-grow: inherit;
+    flex-wrap: nowrap;
+    flex-direction:column;
+    justify-content: space-between
+}
+.info-ticket{
+    color: #ffff99;
+}

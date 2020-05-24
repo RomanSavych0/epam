@@ -1,0 +1,53 @@
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    border-bottom: 1px solid hsla(0,0%,100%,.3);
+    margin-right: 144px;
+    margin-left: 100px;
+    width: 1000px;
+
+}
+
+.nav-item {
+    color: whitesmoke;
+}
+
+#changeTheme {
+    width: 50px;
+    height: 50px;
+}
+
+body {
+    background: url("images/adventure.jpg") no-repeat ;
+    background-size: 100% 600px ;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+
+.nav-item:hover {
+
+    border-bottom: 2px solid orangered;
+}
+
+header {
+    margin-top: 10px;
+    display: flex;
+}
+
+#logo {
+    width: 100px;
+    height: 116px;
+}
+
+.logo {
+    width: 100px;
+    height: 116px;
+    margin-left: 144px;
+}
+

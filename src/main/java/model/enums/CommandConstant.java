@@ -5,5 +5,7 @@ public enum CommandConstant {
     addPassengerIntoBD,
     DeletePassenger,
     FindPassenger,
-    GetAllPassengers
+    GetAllPassengers,
+    GetAllTickets,
+    FindTicket
 }

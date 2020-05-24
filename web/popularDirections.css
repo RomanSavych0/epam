@@ -1,0 +1,74 @@
+#popular-directions-main-text {
+    color: #02c082;
+
+}
+
+.cityImage {
+    width: 366px;
+    height: 190px;
+}
+
+.city {
+    border-radius: 10px;
+    border: 1px solid grey;
+    -webkit-box-shadow: 4px 10px 9px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px 10px 9px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 4px 10px 9px 0px rgba(0, 0, 0, 0.75);
+
+}
+
+.popular-directions-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 0;
+}
+
+.popular-direction-text {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 22px;
+    font-size: 27px;
+    border-bottom: 1px solid grey;
+    margin-top: 20px;
+}
+
+.popular-direction-text:hover {
+    background-color: #0bb8db;
+    transition-duration: 2s;
+}
+
+.price {
+    border: none;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    background-color: transparent;
+}
+
+.price:hover {
+    font-weight: 100;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    background: rgba(2, 192, 130, .75);
+    box-shadow: 0 -3px rgb(53, 167, 110) inset;
+    transition: 0.2s;
+    border-radius: 10px 10px 10px 10px;
+    margin-left: 20px;
+    border: 0;
+    height: 100%;
+}
+
+.price:hover span {
+    display: none;
+}
+
+.price:hover:before {
+
+    content: "Знайти";
+
+}
+span{
+    color: green;
+}

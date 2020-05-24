@@ -6,49 +6,66 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d52e1c13-e16e-4079-bc2c-247f829e0dad" name="Default Changelist" comment="added pages constant enum,command constant , command container">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/dao/AbstractCrudDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/dao/CrudDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/dao/PassengerDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/dao/connection/MyConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/exeptions/DataBaseRuntimeException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8bba3d05-c8f5-40e7-b2cf-a8c0d7f1f1dd.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d015a342-7d52-4203-be05-c07382f124e6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/df9923c2-a758-491f-b455-3b82bc381ac5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+    <list default="true" id="d52e1c13-e16e-4079-bc2c-247f829e0dad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/command/implementation/tickets/FindTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/command/implementation/tickets/GetAllTickets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/dao/TicketDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/dao/TicketDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/service/TicketService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/testMethods/TestTickets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/content.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/footerStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/headerStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/hiddenDivs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/Logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/Lviv.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/adventure-5062314.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/adventure-5062314_1920.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/adventure.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/community.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/harkiv.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/kyiv.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/images/security.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/popularDirections.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/scripts/ajaxRequest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/scripts/displayTickets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/scripts/footerScript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/scripts/ticketScript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/visibleContent.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/Connect.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/controller/command/implementation/passengers/AddPassengerIntoBD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/controller/command/implementation/passengers/AddPassengerIntoBD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/controller/command/implementation/passengers/DeletePassenger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/controller/command/implementation/passengers/DeletePassenger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/controller/command/implementation/passengers/FindPassenger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/controller/command/implementation/passengers/FindPassenger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/controller/command/implementation/passengers/GetAllPassengers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/controller/command/implementation/passengers/GetAllPassengers.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/controller/command/interfaces/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/controller/command/interfaces/Command.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/controller/dao/PassengerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/controller/dao/PassengerDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/controller/service/PassengerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/model/Passenger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/model/Passenger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/model/Ticket.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/model/Ticket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/model/Train.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/model/Train.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/servlets/MainServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/classes/servlets/MainServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Connect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/passengers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EpamProject_Web_exploded/passengers.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/AddPassengerIntoBD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/AddPassengerIntoBD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/CommandContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/CommandContainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/DeletePassenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/DeletePassenger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/FindPassenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/FindPassenger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/GetAllPassengers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/GetAllPassengers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/dao/PassengerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/dao/PassengerDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/service/PassengerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/service/PassengerServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/Passenger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Passenger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/dao/AbstractCrudDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/dao/AbstractCrudDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/dao/CrudDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/dao/CrudDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/dao/PassengerDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/dao/PassengerDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/dao/connection/MyConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/dao/connection/MyConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/service/PassengerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/service/PassengerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/model/enums/CommandConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/enums/CommandConstant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/servlets/MainServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servlets/MainServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Connect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/command/implementation/passengers/AddPassengerIntoBD.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/command/implementation/passengers/DeletePassenger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/command/implementation/passengers/DeletePassenger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/command/implementation/passengers/FindPassenger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/command/implementation/passengers/FindPassenger.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/command/implementation/passengers/GetAllPassengers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/command/interfaces/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/command/interfaces/Command.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/dao/PassengerDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/dao/PassengerDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controller/service/PassengerService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Passenger.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Passenger.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/model/Ticket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Ticket.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/model/Train.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/Train.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/servlets/MainServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/passengers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/passengers.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -88,28 +105,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/CommandContainer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/servlets/MainServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5">
-              <caret line="43" column="24" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/dao/PassengerDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+            <state relative-caret-position="635">
+              <caret line="65" column="29" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,12 +117,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/dao/AbstractCrudDaoImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/CommandContainer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-430">
-              <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+            <state relative-caret-position="735">
+              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="710">
+              <caret line="46" column="15" lean-forward="true" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/DeletePassenger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,41 +154,25 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/controller/dao/PassengerDao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+              <caret line="4" column="65" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/dao/CrudDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/Passenger.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/enums/CommandConstant.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-              <folding>
-                <element signature="e#195#196#0" expanded="true" />
-                <element signature="e#231#232#0" expanded="true" />
-              </folding>
+              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/dao/connection/MyConnection.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/AddPassengerIntoBD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+            <state relative-caret-position="700">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -176,15 +181,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8342b739-28f8-4282-bdc3-1e5f41d7a4d1/console.sql">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/GetAllPassengers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="275">
+              <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/controller/service/PassengerServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/Ticket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
+            <state relative-caret-position="1125">
+              <caret line="53" column="27" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
+              <folding>
+                <element signature="e#61#62#0" expanded="true" />
+                <element signature="e#86#87#0" expanded="true" />
+                <element signature="e#119#120#0" expanded="true" />
+                <element signature="e#147#148#0" expanded="true" />
+                <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#206#207#0" expanded="true" />
+                <element signature="e#247#248#0" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#1149#1150#0" expanded="true" />
+                <element signature="e#1176#1177#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controller/dao/AbstractCrudDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1700">
+              <caret line="77" column="16" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -199,8 +232,9 @@
       <list>
         <option value="Jsp File" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="JavaScript File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -210,13 +244,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/clases/Passenger.java" />
-        <option value="$PROJECT_DIR$/src/main/java/clases/Train.java" />
-        <option value="$PROJECT_DIR$/src/main/java/clases/Ticket.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/56d12de1-09e0-4cbe-8645-b6a22f1eecb0/console.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/edde3427-fe5c-40fa-9ae2-92090ab6a7b3/console.sql" />
-        <option value="$PROJECT_DIR$/web/view/passengers.jsp" />
-        <option value="$PROJECT_DIR$/web/createCar.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/createPassenger.jsp" />
         <option value="$PROJECT_DIR$/web/view/index.jsp" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/d015a342-7d52-4203-be05-c07382f124e6/console.sql" />
@@ -228,13 +255,10 @@
         <option value="$PROJECT_DIR$/src/main/java/servlets/CreatePassengerServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/PagesConstant.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/enums/commandConstant.java" />
-        <option value="$PROJECT_DIR$/src/main/java/model/enums/CommandConstant.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/enums/PagesConstant.java" />
-        <option value="$PROJECT_DIR$/web/passengers.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Connect.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/controller/command/interfaces/Command.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/DeletePassenger.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/FindPassenger.java" />
@@ -242,15 +266,35 @@
         <option value="$PROJECT_DIR$/src/main/java/controller/dao/DataBaseRuntimeException.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/dao/PassengerDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Passenger.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/AddPassengerIntoBD.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/GetAllPassengers.java" />
-        <option value="$PROJECT_DIR$/src/main/java/servlets/MainServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/CommandContainer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/dao/CrudDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/dao/PassengerDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/controller/dao/AbstractCrudDaoImpl.java" />
+        <option value="$PROJECT_DIR$/web/style.css" />
+        <option value="$PROJECT_DIR$/web/style/style.css" />
+        <option value="$PROJECT_DIR$/web/passengers.jsp" />
+        <option value="$PROJECT_DIR$/web/scripts/main.js" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/dao/TicketDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Ticket.java" />
+        <option value="$PROJECT_DIR$/web/scripts/footerScript.js" />
+        <option value="$PROJECT_DIR$/web/scripts/ticketScript.js" />
+        <option value="$PROJECT_DIR$/web/scripts/displayTickets.js" />
         <option value="$PROJECT_DIR$/src/main/java/controller/dao/connection/MyConnection.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/service/PassengerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/command/implementation/tickets/GetAllTickets.java" />
+        <option value="$PROJECT_DIR$/web/scripts/ajaxRequest.js" />
+        <option value="$PROJECT_DIR$/web/content.css" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/command/implementation/tickets/findTicket.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/dao/PassengerDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/dao/CrudDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/service/TicketService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/dao/TicketDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/dao/AbstractCrudDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/testMethods/TestTickets.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/command/implementation/tickets/FindTickets.java" />
+        <option value="$PROJECT_DIR$/web/hiddenDivs.css" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/AddPassengerIntoBD.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/enums/CommandConstant.java" />
+        <option value="$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/CommandContainer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/servlets/MainServlet.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
       </list>
     </option>
   </component>
@@ -269,8 +313,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="x" value="-137" />
+    <option name="y" value="31" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -350,6 +396,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
               <item name="command" type="462c0819:PsiDirectoryNode" />
+              <item name="implementation" type="462c0819:PsiDirectoryNode" />
+              <item name="tickets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EpamProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EpamProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
               <item name="interfaces" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -414,7 +471,7 @@
               <item name="EpamProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="EpamProject" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="EpamProject" type="b2602c69:ProjectViewProjectNode" />
@@ -433,26 +490,29 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/controller/dao" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.12515645" />
     <property name="project.structure.side.proportion" value="0.36536312" />
-    <property name="settings.editor.selected.configurable" value="Lombok plugin" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Admin\IdeaProjects\EpamProject\src\main\java\controller\dao" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\IdeaProjects\EpamProject\web" />
+      <recent name="C:\Users\Admin\IdeaProjects\EpamProject\web\pages" />
+      <recent name="C:\Users\Admin\IdeaProjects\EpamProject\web\view" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="controller.dao.connection" />
       <recent name="controller.dao" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Admin\IdeaProjects\EpamProject\web" />
-      <recent name="C:\Users\Admin\IdeaProjects\EpamProject\web\view" />
+      <recent name="C:\Users\Admin\IdeaProjects\EpamProject\web\css" />
+      <recent name="C:\Users\Admin\IdeaProjects\EpamProject\src\main\java\controller\dao" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -467,7 +527,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PassengerServiceImpl">
+  <component name="RunManager" selected="Tomcat Server.Tomcat ">
     <configuration name="Connect" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Connect" />
       <module name="EpamProject" />
@@ -516,6 +576,32 @@
     </configuration>
     <configuration name="PassengerServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="controller.service.PassengerServiceImpl" />
+      <module name="EpamProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestTickets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="testMethods.TestTickets" />
+      <module name="EpamProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TicketService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controller.service.TicketService" />
       <module name="EpamProject" />
       <extension name="coverage">
         <pattern>
@@ -603,12 +689,16 @@
       <item itemvalue="Application.Connect" />
       <item itemvalue="Application.PassengerDaoImpl" />
       <item itemvalue="Application.MyConnection" />
-      <item itemvalue="Tomcat Server.Tomcat " />
       <item itemvalue="Application.DataBaseRuntimeExeption" />
       <item itemvalue="Application.PassengerServiceImpl" />
+      <item itemvalue="Application.TicketService" />
+      <item itemvalue="Application.TestTickets" />
+      <item itemvalue="Tomcat Server.Tomcat " />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestTickets" />
+        <item itemvalue="Application.TicketService" />
         <item itemvalue="Application.PassengerServiceImpl" />
         <item itemvalue="Application.MyConnection" />
         <item itemvalue="Application.DataBaseRuntimeExeption" />
@@ -632,7 +722,16 @@
       <workItem from="1585298186255" duration="28998000" />
       <workItem from="1585822729117" duration="23294000" />
       <workItem from="1585863559580" duration="10976000" />
-      <workItem from="1585929491357" duration="14998000" />
+      <workItem from="1585929491357" duration="31136000" />
+      <workItem from="1587402471380" duration="8351000" />
+      <workItem from="1588452079347" duration="803000" />
+      <workItem from="1588617367345" duration="1004000" />
+      <workItem from="1588842062498" duration="581000" />
+      <workItem from="1589292547269" duration="29017000" />
+      <workItem from="1589330034420" duration="22000" />
+      <workItem from="1589731326628" duration="7684000" />
+      <workItem from="1590344719913" duration="1598000" />
+      <workItem from="1590359509879" duration="576000" />
     </task>
     <task id="LOCAL-00001" summary=".">
       <created>1585419619762</created>
@@ -648,11 +747,18 @@
       <option name="project" value="LOCAL" />
       <updated>1585829209842</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Added Abstract Crud Dao">
+      <created>1586005462804</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1586005462810</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102422000" />
+    <option name="totallyTimeSpent" value="168196000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -673,7 +779,7 @@
       <window_info id="Image Layers" order="3" />
       <window_info id="Web" order="4" sideWeight="0.30555555" side_tool="true" weight="0.15031983" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" x="32" y="224" width="303" height="1008" id="Project" order="6" sideWeight="0.6944444" visible="true" weight="0.21162046" />
+      <window_info active="true" content_ui="combo" x="32" y="224" width="303" height="1008" id="Project" order="6" sideWeight="0.6944444" visible="true" weight="0.23507462" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.36033228" />
       <window_info anchor="bottom" id="Application Servers" order="1" weight="0.32936507" />
@@ -686,7 +792,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Message" order="9" />
       <window_info anchor="bottom" id="Find" order="10" weight="0.32936507" />
-      <window_info anchor="bottom" id="Run" order="11" weight="0.4593254" />
+      <window_info anchor="bottom" id="Run" order="11" weight="0.6785714" />
       <window_info anchor="bottom" id="Debug" order="12" weight="0.43452382" />
       <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
@@ -701,41 +807,6 @@
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Capture Tool" order="0" />
-      <window_info id="UI Designer" order="1" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Web" order="4" sideWeight="0.30555555" side_tool="true" weight="0.15031983" />
-      <window_info id="Designer" order="5" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.6944444" visible="true" weight="0.15031983" />
-      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Console" order="0" weight="0.32936507" />
-      <window_info anchor="bottom" id="Application Servers" order="1" weight="0.32936507" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32936507" />
-      <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="5" weight="0.32936507" />
-      <window_info anchor="bottom" id="Java Enterprise" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Message" order="9" />
-      <window_info anchor="bottom" id="Find" order="10" weight="0.32936507" />
-      <window_info anchor="bottom" id="Run" order="11" weight="0.39781746" />
-      <window_info anchor="bottom" id="Debug" order="12" weight="0.39980158" />
-      <window_info anchor="bottom" id="Cvs" order="13" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="14" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="15" weight="0.32936507" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Database" order="2" visible="true" weight="0.15351813" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -743,150 +814,30 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
     <MESSAGE value="added pages constant enum,command constant , command container" />
-    <option name="LAST_COMMIT_MESSAGE" value="added pages constant enum,command constant , command container" />
+    <MESSAGE value="Added Abstract Crud Dao" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Abstract Crud Dao" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/controller/service/PassengerServiceImpl.java</url>
-          <line>43</line>
+          <line>44</line>
           <properties class="controller.service.PassengerServiceImpl" method="main">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/controller/command/implementation/tickets/GetAllTickets.java</url>
+          <line>9</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/h2database/h2/1.4.200/h2-1.4.200.jar!/org/h2/command/Parser.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="7845" selection-start-line="7845" selection-end-line="7845" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/edde3427-fe5c-40fa-9ae2-92090ab6a7b3/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="116" selection-start-column="116" selection-end-column="116" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://edde3427-fe5c-40fa-9ae2-92090ab6a7b3/database/TEST/schema/PUBLIC/table/PASSENGERS" />
-    <entry file="file://$PROJECT_DIR$/web/createCar.jsp" />
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/createPassenger.jsp" />
-    <entry file="file://$PROJECT_DIR$/web/createPassenger.jsp" />
-    <entry file="das://d015a342-7d52-4203-be05-c07382f124e6/database/TRAINSSTANTION/schema/PUBLIC/table/PASSENGERS/index/PRIMARY_KEY_4" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17300">
-          <caret line="747" selection-start-line="747" selection-end-line="747" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4825">
-          <caret line="260" column="27" selection-start-line="260" selection-start-column="27" selection-end-line="260" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d015a342-7d52-4203-be05-c07382f124e6/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/h2database/h2/1.4.200/h2-1.4.200.jar!/org/h2/Driver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/sql/DriverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="688" column="14" selection-start-line="688" selection-start-column="14" selection-end-line="688" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/814c8723-1925-4e0e-bacf-e3e78c0ba4a3/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://d015a342-7d52-4203-be05-c07382f124e6/database/TRAINSSTANTION/schema/PUBLIC/table/PASSENGERS" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/431d0d38-3e3f-4a5f-8b1e-6ecfce1e38be/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://8bba3d05-c8f5-40e7-b2cf-a8c0d7f1f1dd/database/TRAINSTANTION/schema/PUBLIC/table/PASSENGERS" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8bba3d05-c8f5-40e7-b2cf-a8c0d7f1f1dd/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" lean-forward="true" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://df9923c2-a758-491f-b455-3b82bc381ac5/database/DEFAULT/schema/PUBLIC/table/PASSENGERS" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/df9923c2-a758-491f-b455-3b82bc381ac5/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MainServlet.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/enums/CommandConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/enums/PagesConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EpamProject.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/778ec861-e35b-4bea-9a30-4d239a904bbc/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Connect.java" />
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" column="33" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/passengers.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Ticket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
@@ -901,17 +852,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/DeletePassenger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/interfaces/Command.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -919,47 +859,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/exeptions/DataBaseRuntimeExeption.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/exeptions/DataBaseRuntimeException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/AddPassengerIntoBD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="26" column="43" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/FindPassenger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/GetAllPassengers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#561#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/exeptions/DataBaseRuntimeExeption.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/com/h2database/h2/1.4.200/h2-1.4.200.jar!/org/h2/jdbc/JdbcPreparedStatement.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -977,13 +877,6 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/8342b739-28f8-4282-bdc3-1e5f41d7a4d1/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/CommandContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="64" selection-start-line="16" selection-start-column="64" selection-end-line="16" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/sql/ResultSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="327">
@@ -991,10 +884,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Passenger.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/enums/PagesConstant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <caret line="9" selection-start-line="4" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/h2database/h2/1.4.200/h2-1.4.200.jar!/org/h2/jdbc/JdbcConnection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="231" selection-start-line="231" selection-end-line="231" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/style.css" />
+    <entry file="file://$PROJECT_DIR$/web/css/style.css" />
+    <entry file="file://$PROJECT_DIR$/web/scripts/main.js" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Override.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/logo.png" />
+    <entry file="file://$PROJECT_DIR$/web/images/adventure-5062314.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/exeptions/DataBaseRuntimeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Passenger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
           <folding>
             <element signature="e#195#196#0" expanded="true" />
             <element signature="e#231#232#0" expanded="true" />
@@ -1002,34 +937,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/MainServlet.java">
+    <entry file="file://$PROJECT_DIR$/web/scripts/displayTickets.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5">
-          <caret line="43" column="24" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+        <state relative-caret-position="225">
+          <caret line="21" column="45" lean-forward="true" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/dao/CrudDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="8" lean-forward="true" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/dao/PassengerDao.java">
+    <entry file="file://$PROJECT_DIR$/web/scripts/footerScript.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/service/PassengerServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/web/headerStyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="37" column="51" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
+        <state relative-caret-position="300">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/footerStyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/content.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/popularDirections.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1000">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/scripts/ticketScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="47" selection-start-column="47" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/scripts/ajaxRequest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/visibleContent.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="910">
+          <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/FindPassenger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1038,18 +1012,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/dao/PassengerDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        <state relative-caret-position="150">
+          <caret line="12" column="88" selection-start-line="12" selection-start-column="88" selection-end-line="12" selection-end-column="88" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/dao/AbstractCrudDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/service/PassengerServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-430">
-          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+        <state relative-caret-position="235">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/dao/TicketDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="49" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/dao/CrudDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/testMethods/TestTickets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1058,11 +1059,171 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/dao/connection/MyConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+        <state relative-caret-position="400">
+          <caret line="22" column="44" lean-forward="true" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/implementation/tickets/GetAllTickets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="15" column="39" selection-start-line="15" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/hiddenDivs.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/passengers.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding>
+            <marker date="1586266238372" expanded="true" signature="294:389" ph="..." />
+            <marker date="1586266238372" expanded="true" signature="296:389" ph="..." />
+            <marker date="1586266238372" expanded="true" signature="298:389" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/implementation/tickets/FindTicket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/service/TicketService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/dao/TicketDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="19" column="122" selection-start-line="19" selection-start-column="122" selection-end-line="19" selection-end-column="122" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Ticket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="53" column="27" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
+          <folding>
+            <element signature="e#61#62#0" expanded="true" />
+            <element signature="e#86#87#0" expanded="true" />
+            <element signature="e#119#120#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#247#248#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#1149#1150#0" expanded="true" />
+            <element signature="e#1176#1177#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/dao/AbstractCrudDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="77" column="16" selection-start-line="77" selection-start-column="16" selection-end-line="77" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/AddPassengerIntoBD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/GetAllPassengers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/enums/CommandConstant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/dao/PassengerDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="65" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/DeletePassenger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controller/command/implementation/passengers/CommandContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/servlets/MainServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="65" column="29" selection-start-line="65" selection-start-column="19" selection-end-line="65" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="710">
+          <caret line="46" column="15" lean-forward="true" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
         </state>
       </provider>
     </entry>

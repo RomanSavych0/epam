@@ -1,0 +1,56 @@
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 144px;
+    margin-right: 144px;
+    flex-direction: column;
+}
+.buyTicketsText{
+    margin-top: 100px;
+    color: white;
+}
+#arrow{
+    width: 58px;
+    height: 45px;
+}
+.findTicketForm{
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-around;
+}
+.cityInput{
+
+    background-color: #f6f6f6; /*Цвет текстового поля*/
+    border-radius: 10px 10px 10px 10px; /*Закругляем уголки*/
+}
+
+.cityInput::-webkit-input-placeholder { color: green; }
+
+#findTicketBtn{
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    background: rgba(2,192,130,.75);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+    border-radius: 10px;
+    margin-left: 20px;
+    border: 0;
+
+}
+
+#findTicketBtn:hover { background: rgb(53, 167, 110); }
+#findTicketBtn:active {
+    background: rgb(33,147,90);
+    box-shadow: 0 3px rgb(33,147,90) inset;
+}
+.aboutTicket{
+    margin-top: 100px;
+    background-color: rgba(2,192,130,.75);
+    border-radius: 5px;
+    height: 100px;
+    width: 100%;
+}
+

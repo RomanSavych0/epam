@@ -1,0 +1,126 @@
+.visibleContent {
+    margin-top: 300px;
+    width: 100%;
+    background: rgb(77, 211, 167);
+}
+
+.text {
+    color: white;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description {
+    width: 100%;
+    margin-left: 52px;
+}
+
+.row-img {
+    width: 186px;
+    height: 166px;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+}
+
+.text {
+    margin-left: 280px;
+}
+
+.row-image {
+    border-right: 1px solid white;
+    padding: 64px;
+}
+
+.additional-description {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: white;
+}
+
+#additionalDesk3 {
+    margin-left: -45px;
+}
+
+
+
+
+.ticket-content {
+}
+
+.ticket-content-top-line {
+    border-bottom: 1px solid grey;
+    font-size: 25px;
+    color: #f6f6f6;
+}
+
+.ticket-content-bottom-line {
+    margin-top: 8px;
+    font-size: 25px;
+    color: #f6f6f6;
+
+}
+
+.buy-ticket-btn {
+    font-size: 25px;
+    margin-top: 9px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    background: orange;
+    box-shadow: orange;
+    transition: 0.2s;
+    border-radius: 10px;
+    margin-left: 20px;
+    border: 0;
+
+}
+
+.buy-ticket-btn:hover {
+    background: orangered;
+}
+
+.buy-ticket-btn:active {
+    background: orangered;
+    box-shadow: orangered inset;
+}
+
+
+
+
+
+.insert-passenger-into-bd {
+    font-size: 25px;
+    margin-top: 9px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    background: red;
+    box-shadow: red;
+    transition: 0.2s;
+    border-radius: 10px;
+    margin-left: 20px;
+    border: 0;
+
+
+}
+.insert-passenger-into-bd:hover { background: darkred; }
+.insert-passenger-into-bd:active {
+    background: darkred;
+    box-shadow: darkred inset;
+}
+.passenger-dynamic-input{
+    font-size: 16px;
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
